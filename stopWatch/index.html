@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inprogress Stop Watch</title>
+
+    <!-- CSS style class -->
+<style>
+    
+    .seconds {
+        display:inline-block;
+        color: rgb(209, 29, 194);
+        font-size: 85px;
+
+    }
+
+    .button {
+        font-size: 24px;
+        padding: 16px 40px;
+        float:inline-end;
+    }
+
+
+</style>
+
+</head>
+<body>
+    <!-- Welcome Header -->
+    <h1> Welcome to the Stop Watch Project! </h1>
+
+    <!-- Time Display -->
+
+    <span>
+        <div id="seconds" class="seconds">00</div>
+        <div class="seconds">:</div>
+        <div id="miliSeconds" class="seconds">00</div>
+    </span>
+
+    <br><br><br>
+
+    <span>
+    <!-- Stop Watch Buttons -->
+    <!-- Start Button  -->
+        <button id="start" class="button"> Start </button>
+
+        <!-- Stop Button  -->
+        <button id="stop" class="button"> Stop </button>
+
+        <!-- Restart Button  -->
+        <button id="restart" class="button"> Restart </button>
+</span>
+
+
+
+    <!-- Reads Javascript File for functionality -->
+    <script src="watch.js"></script>
+
+
+</body>
+</html>
