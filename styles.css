@@ -1,0 +1,66 @@
+/* ID Styles */
+#start:hover{
+    background-color: rgb(93, 216, 93);
+    font-weight: bolder;
+}
+
+#stop:hover {
+    background-color: rgb(245, 112, 91);
+    font-weight: bolder;
+
+}
+
+#restart:hover {
+    background-color: rgb(209, 209, 110);
+    font-weight: bolder;
+}
+/* Classes Styles */
+.timer {
+    font-family: fantasy;
+    display:inline-block;
+    color: rgb(209, 29, 194);
+    font-size: 120px;
+    padding: 5px;
+    margin: 15px ;
+}
+
+.button {
+    font-family: fantasy;
+    background-color: hotpink;
+    font-size: 45px;
+    padding: 20px;
+    border-radius: 20%;
+    float:inline-end;
+    cursor: pointer;
+    
+}
+
+/*Element Style */
+body {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+div {
+    background-color: rgba(160, 115, 133, 0.519);
+    margin: auto;
+    border: 4px solid black;
+    width: 60em;
+    height: 10em;
+}
+
+article {
+    background-color: rgba(160, 115, 133, 0.519);
+    background-image: url("pinkBackGround.jpeg");
+    margin: auto;
+    border: 4px solid black;
+    width: 85em;
+    height: 35em;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+}
+
